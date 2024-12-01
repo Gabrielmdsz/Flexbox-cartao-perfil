@@ -1,0 +1,72 @@
+body{
+    background-color: var(--background-color);
+    height: 100vh;
+    font-family: "Kumbh Sans", sans-serif;
+    font-size: 18px;
+}
+
+hr{
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.cartao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 20px;
+    width: 330px;
+    height: 350px;
+}
+
+.cartao .informacao-perfil{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    height: 100%;
+}
+
+.cartao .informacao-perfil img{
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.cartao .informacao-numeros{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.informacao-perfil .info .counter,
+.cartao .informacao-numeros p{
+    font-weight: 700;
+}
+
+.nome{
+    font-weight: 700;
+}
+
+.cartao .informacao-perfil .idade,
+.cartao .informacao-perfil .cidade,
+.informacao-numeros .info .counter-tipo{
+    color: var(--text-color);
+}
+
+
+
+
